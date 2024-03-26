@@ -1,0 +1,30 @@
+body{
+  background-color: beige;
+}
+h1{
+  color:brown;
+  text-align: center;
+  border-top: double;
+  border-bottom: double;
+  border-width: thick;
+  font-size: 50px;
+}
+img{
+  width: 300px;
+  height: 200px;
+  border: 20px;
+  border-radius: 92px;
+}
+h3{
+  border-bottom: dashed;
+  border-bottom-style: dashed;
+  border-color: darkcyan;
+  color:blueviolet;
+  font-family: cursive;
+  
+
+}
+p{
+  font-family:monospace;
+  font-size: 20px;
+}
