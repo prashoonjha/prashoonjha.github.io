@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <body>
-    <h1>HELLO </h1>
- <p>Welcome to this page</p>
-  </body>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
 </head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning:</p>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">
+    <img src="https://smapse.com/storage/2019/10/s1-1.jpg">
+  </div>  
+  <div class="item4">
+    <p>Information for new students</p>
+  </div>
+  <div class="item5">
+    <p>Haaga-Helia University</p>
+    <p>Ratapihantie 13</p>
+    <p>Email-haaga@helia.fi</p>
+  </div>
+</div>
+
+</body>
 </html>
