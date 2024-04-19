@@ -1,20 +1,20 @@
 * {
     box-sizing: border-box;
   }
-  .grid {
-    max-width: 900px;
+  .wrapper {
+    max-width: 1080px;
     margin: 0 auto;
   }
   
-  .grid > div {
+  .wrapper > div {
     border: 0px solid rgb(233 171 88);
     border-radius: 20px;
-    background-color: rgb(233 171 88 / 50%);
+    background-color: rgba(44, 42, 40, 0.5);
     padding: 1em;
-    color: #d9480f;
+    color: #362d29;
   }
   
-  .grid {
+  .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
