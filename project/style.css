@@ -71,12 +71,13 @@
 }
 
 header {
-	height: 73px;
+	height: 85px;
 	background-color: #d13328;
+    color: white;
 }
 .hero-image {
 	height: 510px;
-  	background: url(image1.jpg) no-repeat center center fixed; 
+    background-color: #d2bc9d;
 }
 
 .row3 .six, .row3 .three {
