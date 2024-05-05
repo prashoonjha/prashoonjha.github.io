@@ -77,9 +77,9 @@ header {
     color: white;
 }
 
-.hero-image {
+.main-image {
 	height: 415px;
-    background: url(main_image.jpg) no-repeat center center fixed;
+    background: url(main_image.jpg) cover no-repeat center center fixed;
 }
 
 .row3 .six, .row3 .three {
@@ -90,14 +90,12 @@ header {
 	height: 333px;
 	background-color: #F9690E;
 }
-.row5 .six, .row5 .three {
+.row4 .six, .row5 .three {
 	height: 333px;
-	background-color: #FDE3A7;
+	background-color: #F9690E;
 }
-.row6 .six, .row6 .three {
-	height: 333px;
-	background-color: #F27935;
-}
+
+
 .last {
 	height: 73px;
 	background-color: #d13328;
