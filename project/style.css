@@ -192,3 +192,14 @@ footer {
     text-align: center;
 }
  /*end of page 1 style*/
+ @media screen and (max-width: 767px) {
+    /* Your CSS styles for phones go here */
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
