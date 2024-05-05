@@ -83,13 +83,15 @@ header {
     
 }
 
-.row3 .six, .row3 .three {
+.row3 .six, .row3 .three, .row2 {
 	height: 445px;
-	background-color: #a1a2cb;
+	background-color: white;
     text-align: center;
     font-size: 19px;
+    padding-top: 30px;
 
 }
+ 
 
 
 .last {
