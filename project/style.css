@@ -56,6 +56,7 @@
 	width: 15%;
 	float:left;
 	margin-left: 2%;
+    
 
 }
 .one {
@@ -77,8 +78,8 @@ header {
 }
 
 .hero-image {
-	height: 510px;
-    background-color: #d2bc9d;
+	height: 415px;
+    background: url(main_image.jpg) no-repeat center center fixed;
 }
 
 .row3 .six, .row3 .three {
