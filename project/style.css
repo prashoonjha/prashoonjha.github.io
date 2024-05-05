@@ -71,10 +71,11 @@
 }
 
 header {
-	height: 85px;
+	height: 95px;
 	background-color: #d13328;
     color: white;
 }
+
 .hero-image {
 	height: 510px;
     background-color: #d2bc9d;
@@ -105,3 +106,29 @@ footer {
 	background-color: #FDE3A7;
 }
   
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav li {
+    float: left;
+    
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    
+}
+
+nav li a:hover {
+    background-color: #5c5353; /* background color on hover */
+}
