@@ -78,8 +78,8 @@ header {
 }
 
 .main-image {
-	height: 415px;
-    background: url(main_image.jpg) cover no-repeat center center fixed;
+	height: 385px;
+    background: url(main_image.png) no-repeat center center fixed;
     
 }
 
@@ -176,7 +176,7 @@ main {
 
 .hero {
     background-color: #f0f0f0;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     flex: 1; 
     background: url(main_image.png) no-repeat center center fixed;
@@ -189,31 +189,3 @@ footer {
     text-align: center;
 }
  /*end of page 1 style*/
-
- @media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
-
-    nav {
-        display: block;
-        text-align: center;
-    }
-
-    nav li {
-        display: inline-block;
-        margin: 0 10px;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    section {
-        margin-bottom: 10px;
-    }
-
-    footer {
-        padding: 5px 10px;
-    }
-}
