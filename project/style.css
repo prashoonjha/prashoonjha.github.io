@@ -73,7 +73,7 @@
 
 header {
 	height: 95px;
-	background-color: #d13328;
+	background-color: #b81c1c;
     color: white;
 }
 
@@ -84,7 +84,8 @@ header {
 
 .row3 .six, .row3 .three {
 	height: 333px;
-	background-color: #F89406;
+	background-color: #a1a2cb;
+    text-align: center;
 }
 .row4 .six, .row4 .three {
 	height: 333px;
