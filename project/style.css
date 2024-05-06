@@ -150,14 +150,12 @@ footer {
       background-size: cover; /* Adjust as needed */
       /* Additional background styles can be added here */
     }
-    .hero {
-        background-color: #f0f0f0;
-        color : white;
-        padding: 30px;
-        text-align: center;
-        flex: 1; 
+    .main-image {
+        height: 385px;
         background: url(main_image.png) no-repeat center center fixed;
-  }
+        color: white;
+        
+    }
 }
   /* Reset default list styles */
 ul.styled-list {
