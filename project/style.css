@@ -144,7 +144,7 @@ footer {
 
  @media only screen and (max-width: 767px) {
     body {
-      background-image: url('phone-background-image.jpg');
+      background-image: url(main_image.png);
       background-size: cover; /* Adjust as needed */
       /* Additional background styles can be added here */
     }
