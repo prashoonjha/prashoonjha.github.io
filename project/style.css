@@ -147,10 +147,16 @@ footer {
 
  @media only screen and (max-width: 767px) {
     body {
-      background-image: url(main_image.png);
       background-size: cover; /* Adjust as needed */
       /* Additional background styles can be added here */
     }
+    .hero {
+        background-color: #f0f0f0;
+        color : white;
+        padding: 30px;
+        text-align: center;
+        flex: 1; 
+        background: url(main_image.png) no-repeat center center fixed;
   }
   
   /* Reset default list styles */
