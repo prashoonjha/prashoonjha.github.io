@@ -24,7 +24,7 @@ header {
 .main-image {
 	height: 385px;
     background: url(main_image.png) no-repeat center center fixed;
-    
+    color: white;
     
 }
 
@@ -142,3 +142,11 @@ footer {
 }
  /*end of page 1 style*/
 
+ @media only screen and (max-width: 767px) {
+    body {
+      background-image: url('phone-background-image.jpg');
+      background-size: cover; /* Adjust as needed */
+      /* Additional background styles can be added here */
+    }
+  }
+  
