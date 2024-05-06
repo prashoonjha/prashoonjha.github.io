@@ -133,6 +133,7 @@ main {
 .homeins {
     background-color: #aad4fb;
     padding-top: 30px;
+    
 }
 footer {
     background-color: #333;
@@ -148,5 +149,24 @@ footer {
       background-size: cover; /* Adjust as needed */
       /* Additional background styles can be added here */
     }
+  }
+  
+  /* Reset default list styles */
+ul.styled-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style list items */
+  ul.styled-list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect */
+  ul.styled-list li:hover {
+    background-color: #aabbe6;
   }
   
