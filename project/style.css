@@ -28,6 +28,8 @@ header {
     
 }
 
+    
+
 .row3 .six, .row3 .three, .row2 {
 	height: 445px;
 	background-color: white;
@@ -146,7 +148,7 @@ footer {
  @media only screen and (max-width: 767px) {
     body {
       background-image: url(main_image.png);
-      background-size: cover; /* Adjust as needed */
+      background-size: 195px; /* Adjust as needed */
       /* Additional background styles can be added here */
     }
   }
