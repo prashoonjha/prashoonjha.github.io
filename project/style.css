@@ -135,7 +135,8 @@ main {
 .homeins {
     background-color: #aad4fb;
     padding-top: 30px;
-    
+    font-size: 21px;
+    text-align: center;
 }
 footer {
     background-color: #333;
