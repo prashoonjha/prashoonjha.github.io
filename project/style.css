@@ -158,7 +158,7 @@ footer {
         flex: 1; 
         background: url(main_image.png) no-repeat center center fixed;
   }
-  
+}
   /* Reset default list styles */
 ul.styled-list {
     list-style-type: none;
