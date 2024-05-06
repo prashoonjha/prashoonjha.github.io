@@ -24,7 +24,7 @@ header {
 .main-image {
 	height: 385px;
     background: url(main_image.png) no-repeat center center fixed;
-    flex: 1; 
+    
     
 }
 
