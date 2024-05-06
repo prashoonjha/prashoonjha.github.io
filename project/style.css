@@ -8,8 +8,6 @@
 	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
 }
 
-
-
 .row {
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
@@ -26,6 +24,7 @@ header {
 .main-image {
 	height: 385px;
     background: url(main_image.png) no-repeat center center fixed;
+    flex: 1; 
     
 }
 
