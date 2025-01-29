@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(205, 254, 144, 0.8);
+  text-align: center;
+  padding: 10px ;
+  font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid layout Week 4 Testing( Note: only the link for Dental is working )</h1>
+
+<div class="grid-container">
+ 
+  <div class="item1"><h1>Haaga-Helia Healthcare&reg;</h1>
+ 
+    <p>Tervetuloa! Haaga-Helian terveydenhuoltoon.</p>
+    <p>We provide better treatment plans for major health problems and diagnosis using high-end medical equipments.</p>
+    <img src="hospital.jpg" alt="Main_Image" width=400px height="300">
+    <br>
+    <br></div>
+  
+    
+  <div class="item2">
+   
+      </div><section>
+  <div class="item3">
+    <h2>Health Conditions:</h2>
+    <ul>
+    <li><a href="dentist.html">Dental</a></li>
+    <li><a href="cardiology.html">Heart Related</a></li>
+    <li><a href="gynaecology.html">Pregnancy</a></li>
+    <li><a href="oncology.html">Cancer</a></li>
+    <li><a href="orthopaedic.html">Orthopaedic</a></li>
+  </ul></div>  </section>
+  <div class="item4"></div>
+  <div class="item5">&copy;Haaga-Helia UAS</div>
+</div>
+
+</body>
+</html>
+
+
